@@ -1,0 +1,11 @@
+Operadores lógicos:
+    And : Devuelve true si las dos condiciones on verdaderas.
+    Or : Devuelve true si una de las condiciones es verdadera.
+    Not : Devuelve true si la condición es falsa y viceversa.
+
+Operadores relacionales:
+    == : Igual
+    < : Menor
+    > : Mayor
+    <= : Menor o igual
+    >= : Mayor o igual
