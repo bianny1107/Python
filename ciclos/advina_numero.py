@@ -1,7 +1,14 @@
 # Programa en el que el usuario trata de adivinar un número
+valor = 0
+intento = 0
+while(valor != 6 and intento < 3):
+    valor = int(input("Adivina el número...... "))
+    intento = intento  + 1
 
-num = 7
-i = 0
-
-while(num != 7 and i < 3):
-    valor_usuario = int(input("Adivina el valor que la máquina piensa........ "))
+    if(valor == 6):
+        print("\n ¡Lo conseguiste ;) ! \n")
+    elif(intento != 3):
+        print("\n Sigue intentándolo :| \n")
+    else:
+        print("\n ¡Fallaste :( ! Inténtalo más tarde.")
+        break
