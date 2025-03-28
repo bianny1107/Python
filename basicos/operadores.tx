@@ -5,6 +5,7 @@ Operadores lógicos:
 
 Operadores relacionales:
     == : Igual
+    != : Desigual
     < : Menor
     > : Mayor
     <= : Menor o igual
